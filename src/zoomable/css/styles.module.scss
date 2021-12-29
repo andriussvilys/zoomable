@@ -1,0 +1,23 @@
+.container{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 2px solid red;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    border: 2px solid lime;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test{
+    height: 100px;
+    width: 100px;
+    background: blue;
+    will-change: transform;
+}
